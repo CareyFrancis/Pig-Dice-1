@@ -3,10 +3,10 @@
 ### CREATED BY  Duncan Kariuki
 
 --------------------------------------------------------------------------
-![New Game]()
+![New Game](https://github.com/Dun-Njuguna/Pig-Dice/blob/master/img/newgame.png)
 Page to answer questions
 
-![Results]()
+![Results](https://github.com/Dun-Njuguna/Pig-Dice/blob/master/img/runningapp.png)
 Results displayed
 ## Project Objectives
 
