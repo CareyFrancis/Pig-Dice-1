@@ -19,6 +19,19 @@ $(document).ready(function() {
     }
   };
 
+  $("#newGame").click(function () {
+    playerRoll = 0;
+    total = 0;
+    player1Total = 0;
+    player2Total = 0;
+    myTurn1 = 0;
+    myTurn2 = 0;
+    $("#top").val("");
+    $("#bottom").val("");
+    $("#topRight").val("");
+    $("#bottomRight").val("");
+  })
+
   $("#player1").click(function player1() {
     player = "Player 2";
     myTurn2 = 0;
