@@ -32,3 +32,49 @@
 .col-md-4 {
   text-align: center;
 }
+
+#left {
+  color: white;
+  text-align: center;
+}
+
+#right {
+  color: white;
+  text-align: center;
+}
+
+#top {
+  margin-bottom: 10px;
+  height: 3em;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+}
+
+#topRight {
+  margin-bottom: 10px;
+  height: 3em;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+}
+
+#bottom {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;  background-color: white;
+  height: 10em;
+  text-align: center;
+}
+
+#bottomRight {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  height: 10em;
+  text-align: center;
+}
+.button{
+}
