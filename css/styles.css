@@ -3,7 +3,8 @@ body {
   padding-top: 2%;
   margin: auto;
 }
-.container{
+
+.container {
   background-color: #FFFFFF;
   padding-top: 10px;
   border-style: solid;
@@ -12,14 +13,16 @@ body {
   background-color: white;
   overflow: scroll;
 }
+
 .heading {
   background-color: #3F681C;
-  color:white;
+  color: white;
   width: 100%;
   text-align: center;
   height: 3em;
   margin-bottom: 10px;
 }
+
 #title {
   height: 3em;
   margin: 5px;
@@ -27,17 +30,20 @@ body {
   margin-bottom: 10px;
   background-color: #3F681C;
 }
-#newGame{
+
+#newGame {
   border-style: solid;
   border-radius: 5px;
   border-color: #3F681C;
   background-color: #3F681C;
   color: #FFFFFF;
 }
-#heading{
+
+#heading {
   margin: 5px;
   padding-top: 10px;
 }
+
 .col-md-2 {
   background-color: #FFFFFF;
   text-align: center;
@@ -102,7 +108,8 @@ body {
   text-align: center;
   color: #3F681C;
 }
-.button{
+
+.button {
   border-style: solid;
   border-radius: 5px;
   border-color: #3F681C;

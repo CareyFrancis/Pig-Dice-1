@@ -20,21 +20,33 @@
     }
   };
 
+  function newGame() {
+    playerRoll = 0;
+    total = 0;
+    player1Total = 0;
+    player2Total = 0;
+    myTurn1 = 0;
+    myTurn2 = 0;
+    $("#top").val("");
+    $("#bottom").val("");
+    $("#topRight").val("");
+    $("#bottomRight").val("");
+  }
+
+  function winner() {
+    if (total >= 100) {
+      alert("player1 won, loading a new game");
+      newGame();
+    } else if (player2Total >= 100) {
+      alert("player 2 won, start a new game");
+    }
+  }
   // User Interface
   $(document).ready(function() {
-    $("#newGame").click(function() {
-      playerRoll = 0;
-      total = 0;
-      player1Total = 0;
-      player2Total = 0;
-      myTurn1 = 0;
-      myTurn2 = 0;
-      $("#top").val("");
-      $("#bottom").val("");
-      $("#topRight").val("");
-      $("#bottomRight").val("");
-    })
 
+    $("#newGame").click(function() {
+      newGame();
+    });
     $("#player1").click(function player1() {
       player = "Player 2";
       myTurn2 = 0;
@@ -45,6 +57,7 @@
       myTurn1 = playerRoll;
       $("#bottom").val(myTurn1);
       $("#top").val(total);
+      winner();
     });
 
     $("#player2").click(function player2() {
@@ -57,6 +70,7 @@
       myTurn2 = playerRoll;
       $("#bottomRight").val(myTurn2);
       $("#topRight").val(player2Total);
+      winner();
     });
 
     $("#hold").click(function() {
